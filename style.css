@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Poppins ;
+    src: url(https://fonts.google.com/specimen/Poppins);
+}
+*{
+    /* padding: 0;
+    margin: 0; */
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: fixed;
+    height: fit-content;
+    font-family: Poppins;
+    font-size: 16px;
+}
+.cover-background{
+    background-color: coral;
+    opacity: 0.6;
+    color: white;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.DText{
+    color: rgb(183, 183, 184);
+    margin-top: 0px;
+}
+.DText2{
+    color: hsl(0, 100%, 74%);
+}
+.intro{
+    border: 5px solid none;
+    padding: 10px;
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+    padding-left: 20px;
+}
+.intro1{
+    font-size: 30px;
+}
+.intro2{
+    margin-left: 10px;
+}
+.grid-2{
+    float: left;
+    width: 50%;
+    justify-content: center;
+}
+.form{
+    background-color: white;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-size: 30vw;
+   
+
+}
+.FName, .LName, .Email, .Password {
+    margin-top: 20px;
+    justify-content: center;
+    align-content: center;
+}
+input{
+    padding: 10px;
+    width: 40vw;
+}
+.free-trial{
+    padding: 10px;
+    margin: 20px 0px 10px 0px; 
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border-radius: 10px;
+    width: 40vw;
+    text-transform: uppercase;
+    border-style: none;
+}
+.free-trial-top{
+background-color: purple;
+padding: 10px;
+width: 43vw;
+border-style: none;
+color: white;
+border-radius: 10px;
+box-shadow: black;
+}
+.free-trial :hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+
+@media only screen and (max-width:375px) {
+    /* For mobile phones: */
+    .intro, .grid-2, .right {
+      width: 100%;
+      float: none;
+    }
+  }
